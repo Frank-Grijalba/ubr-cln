@@ -2,3 +2,4 @@
 2) npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 3) npx tailwindcss init -p
 4) npm i -D tailwind-styled-components
+5) npm install mapbox-gl --save
