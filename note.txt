@@ -1,5 +1,15 @@
 1) npx create-next-app@latest, then the name of the project
-2) npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
-3) npx tailwindcss init -p
-4) npm i -D tailwind-styled-components
-5) npm install mapbox-gl --save
+2) npm run dev (For run the app)
+3) npm install -D tailwindcss@latest postcss@latest autoprefixer@latest (like boostrap but more compiled)
+4) npx tailwindcss init -p
+5) In the file tailwind.config, replace purge by "purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],"
+6) Paste in _app.js for the import -> import 'tailwindcss/tailwind.css' 
+7) Paste in index.js for the import -> import tw from "tailwind-styled-components"
+8) In the console run -> npm i -D tailwind-styled-components
+
+For install mapbox 
+1) npm install mapbox-gl --save
+2) in _app.js for import -> import "mapbox-gl/dist/mapbox-gl.css"
+3) Paste in index.js -> import mapboxgl from '!mapbox-gl';
+4) in index.js, paste in the body from the document the token given for the page from mapbox => mapboxgl.accessToken = 
+  'pk.eyJ1IjoiZnJhbmstZ3JpamFsYmEiLCJhIjoiY2t5a3lsZnB2MXIzZzJ2bjhsZ2VsbXU5YyJ9.aGAqx1VxLGR7MVBGIRZjKA';
