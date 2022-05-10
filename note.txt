@@ -13,3 +13,5 @@ For install mapbox
 3) Paste in index.js -> import mapboxgl from '!mapbox-gl';
 4) in index.js, paste in the body from the document the token given for the page from mapbox => mapboxgl.accessToken = 
   'pk.eyJ1IjoiZnJhbmstZ3JpamFsYmEiLCJhIjoiY2t5a3lsZnB2MXIzZzJ2bjhsZ2VsbXU5YyJ9.aGAqx1VxLGR7MVBGIRZjKA';
+
+1:09
