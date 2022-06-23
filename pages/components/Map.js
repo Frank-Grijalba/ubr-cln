@@ -8,7 +8,7 @@ mapboxgl.accessToken =
   'pk.eyJ1IjoiZnJhbmstZ3JpamFsYmEiLCJhIjoiY2t5a3lsZnB2MXIzZzJ2bjhsZ2VsbXU5YyJ9.aGAqx1VxLGR7MVBGIRZjKA';
 
   const Map = () => {
-
+    //The first action when Map.js is called in useEffect
     useEffect(() => {
         const map = new mapboxgl.Map({
           container: "map",
@@ -18,7 +18,7 @@ mapboxgl.accessToken =
           zoom: 13,
         })
       })
-
+  //return the id map to be called in search.js
   return (
     <Wrapper id='map'></Wrapper>
   )
