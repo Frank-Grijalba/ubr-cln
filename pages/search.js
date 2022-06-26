@@ -33,12 +33,12 @@ const search = () => {
             Saved Places
           </SavedPlaces>
         {/* Confirm Location */}
-          <ConfirmLocation>
+          <ConfirmButtonContainer>
 
-            <button class="bg-black-100 hover:bg-gray-700 text-white font-bold py-2 px-10 rounded">
-            Confirm Location
-            </button>
-          </ConfirmLocation>
+            
+            Confirm Locations
+
+          </ConfirmButtonContainer>
 
     </Wrapper>
   )
@@ -50,7 +50,7 @@ export default search
 // Images
 
 const BackButton = tw.img`
-  h-12
+  h-12 cursor-pointer
 `
 const Circle = tw.img`
 h-2.5
@@ -90,8 +90,8 @@ flex flex-col flex-1
 const SavedPlaces = tw.div`
 flex items-center bg-white px-4 py-2
 `
-const ConfirmLocation = tw.div`
-bg-red
+const ConfirmButtonContainer = tw.div`
+bg-black text-white text-center mt-2 mx-4 px-4 py-3 text-2xl cursor-pointer
 `
 // Input
 const Input = tw.input`

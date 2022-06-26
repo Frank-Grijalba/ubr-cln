@@ -14,4 +14,6 @@ For install mapbox
 4) in index.js, paste in the body from the document the token given for the page from mapbox => mapboxgl.accessToken = 
   'pk.eyJ1IjoiZnJhbmstZ3JpamFsYmEiLCJhIjoiY2t5a3lsZnB2MXIzZzJ2bjhsZ2VsbXU5YyJ9.aGAqx1VxLGR7MVBGIRZjKA';
 
-prt 2: 2
+In the section to confirm, we need to add to the project a marker for the selections from point A to point B, it will be found in google "add a marker to the map in Mapbox"
+
+prt 2: 21
